@@ -14,6 +14,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(os.path.join(BASE_DIR, 'templates'))
 
 
 # Quick-start development settings - unsuitable for production
@@ -25,7 +26,7 @@ SECRET_KEY = 'c3@pa$jky)hh2wqgpw4^tyh82mk9hnb)*sr2c*k2me39+dta@t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['loopdope.pythonanywhere.com', ]
+ALLOWED_HOSTS = ['127.0.0.1', 'loopdope.pythonanywhere.com', ]
 
 
 # Application definition
